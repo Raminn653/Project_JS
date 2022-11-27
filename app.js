@@ -19,7 +19,7 @@ addBtn.addEventListener('click', () => {
         let newItem = document.createElement('div');
         newItem.classList.add('task');
         newItem.innerHTML = `  
-        <p> ${inpit.value} </p>
+        <p> ${input.value} </p>
         <div class="item-btn">
             <i class="fa-solid fa-pen-to-square"></i>
             <i class="fa-solid fa-xmark"></i>
